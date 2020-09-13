@@ -1,0 +1,25 @@
+{
+    "categories": [
+        {
+            "id": "1",
+            "name": "laptop",
+            "display_name": "Laptop",
+            "description": "Laptop for gaming"
+        },
+        {
+            "id": "2",
+            "name": "pc",
+            "display_name": "PC",
+            "description": "PC for gaming"
+        }
+    ],
+    "products": [
+        {
+            "id": "1",
+            "category": "1",
+            "name": "lenovo",
+            "display_name": "Lenovo",
+            "description": "ThinkPad"
+        }
+    ]
+}
