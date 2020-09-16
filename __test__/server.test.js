@@ -16,7 +16,6 @@ describe('web server', () => {
 
   it('should respond with 200 for good routes', () => {
     return mockRequest.get('/products').then(result => {
-      console.log('result >>> ', result);
       expect(result.status).toBe(200);
     });
   });
