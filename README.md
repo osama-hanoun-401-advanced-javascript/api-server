@@ -1,7 +1,3 @@
-# lab-06
-
-*LAB - Class 06*
-
 ### Author: 
   **Osama Hanoun**
 
@@ -20,15 +16,16 @@ Setup
     **NOT aplicable**
 ### .env requirements (where applicable)
 i.e. PORT
-    **NOT aplicable**
 
 ### PORT - Port Number
     **3000**
 ### MONGODB_URI - URL to the running mongo instance/db
 
-    **NOT aplicable**
+MONGOOSE_URL=mongodb://localhost:27017/apiServerDB
+
 ### How to initialize/run your application (where applicable)
     **e.g.  json-server --watch ./data/db.json**
+
 ### How to use your library (where applicable)
 
 ### Tests
