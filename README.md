@@ -19,7 +19,7 @@
 Setup
     **NOT aplicable**
 ### .env requirements (where applicable)
-i.e.
+i.e. PORT
     **NOT aplicable**
 
 ### PORT - Port Number
@@ -37,4 +37,4 @@ i.e.
 * Describe any tests that you did not complete, skipped, etc **Not aplicable**
 
 ### UML
-![lab-06-UML](./asset/lab-06-UML.PNG)
+![lab-06-UML](./asset/lab-07-UML.PNG)
