@@ -4,9 +4,9 @@ const _500Middleware = require('../lib/middleware/500.js');
 const express = require('express');
 const supertest = require('supertest');
 const app = express();
-app.use(_500Middleware);
 app.get('/test500Middleware', function (req, res) {
-});
+    try{throw 500} catch(err){next(err)}
+},_500Middleware);
 
 describe('500 Middleware', () => {
 
